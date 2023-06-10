@@ -18,7 +18,7 @@ const Projects = () => {
       <h2 className='text-5xl font-light mb-5'>Projects</h2>
       <article className='grid place-items-center grid-cols-1 md:grid-cols-2 gap-3'>
         {/* project boxes */}
-        <a href='https://github.com/sandro21-glitch' target='_blank' className="group transition-colors ease-in duration-750 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
+        <a href='https://github.com/sandro21-glitch/portfolio' target='_blank' className="group transition-colors ease-in duration-750 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
             <div className='flex items-center gap-2 text-xl group-hover:text-redHover transition-colors ease-in duration-75150'>
                 <BsFillPersonFill />
                 Portfolio
