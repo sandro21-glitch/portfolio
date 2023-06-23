@@ -41,12 +41,12 @@ const Projects = () => {
             </div>
             <p className='font-thin'>Entertainment web app made with ReactJS AND TailwindCSS</p>
         </a>
-        <a href='https://github.com/sandro21-glitch/CyberSec' target='_blank' className="group transition-colors ease-in duration-duration-75 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
+        <a href='https://github.com/sandro21-glitch/comfy-sloth-store' target='_blank' className="group transition-colors ease-in duration-duration-75 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
              <div className='flex items-center gap-2 text-xl group-hover:text-redHover transition-colors ease-in duration-duration-75'>
                 <SiSecurityscorecard />
-                CyberSec
+                Comfy Sloth
             </div>
-            <p className='font-thin'>Lorem ipsum dolor sit amet</p>
+            <p className='font-thin'>E-Commerce website</p>
         </a>
       </article>
     </section>
