@@ -27,19 +27,19 @@ const Projects = () => {
                 My Portfolio Website
             </p>
         </a>
-        <a href='https://github.com/sandro21-glitch' target='_blank' className="group transition-colors ease-in duration-duration-75 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
+        <a href='https://github.com/sandro21-glitch/WorldWise' target='_blank' className="group transition-colors ease-in duration-duration-75 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
              <div className='flex items-center gap-2 text-xl group-hover:text-redHover transition-colors ease-in duration-duration-75'>
                 <FaReact />
-                Quiz App
+                WorldWise
             </div>
-            <p className='font-thin'>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p className='font-thin'>WorldWise tracking app made with ReactJS AND TailwindCSS</p>
         </a>
-        <a href='https://github.com/sandro21-glitch' target='_blank' className="group transition-colors ease-in duration-duration-75 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
+        <a href='https://github.com/sandro21-glitch/entertainment-web-app' target='_blank' className="group transition-colors ease-in duration-duration-75 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
              <div className='flex items-center gap-2 text-xl group-hover:text-redHover transition-colors ease-in duration-duration-75'>
                 <AiOutlineAppstore />
                 Entertainment web app
             </div>
-            <p className='font-thin'>Entertainment web app made with ReactJS AND TailwindCSS</p>
+            <p className='font-thin'>Entertainment web app</p>
         </a>
         <a href='https://github.com/sandro21-glitch/comfy-sloth-store' target='_blank' className="group transition-colors ease-in duration-duration-75 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
              <div className='flex items-center gap-2 text-xl group-hover:text-redHover transition-colors ease-in duration-duration-75'>
