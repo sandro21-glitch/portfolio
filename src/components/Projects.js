@@ -1,56 +1,69 @@
-import React from 'react'
-import {BsFillPersonFill} from 'react-icons/bs'
-import {AiOutlineAppstore} from 'react-icons/ai'
-import {FaReact} from 'react-icons/fa'
-import {SiSecurityscorecard} from 'react-icons/si'
+import React from "react";
+import { projects } from "../constants/projects";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+// Default theme
+import "@splidejs/react-splide/css";
+import { Link } from "react-router-dom";
+
 const Projects = () => {
   return (
-    <section className='w-[98vw] max-w-maxWidth mx-auto mb-20 px-3'
-    data-aos="fade-up"
-    // data-aos-offset="200"
-    // data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="true"
-    // data-aos-anchor-placement="top-center"
+    <section
+      id="projects"
+      className="w-[98vw] max-w-maxWidth mx-auto mb-20 px-3"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="true"
     >
-      <h2 className='text-5xl font-light mb-5'>Projects</h2>
-      <article className='grid place-items-center grid-cols-1 md:grid-cols-2 gap-3'>
-        {/* project boxes */}
-        <a href='https://github.com/sandro21-glitch/portfolio' target='_blank' className="group transition-colors ease-in duration-750 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
-            <div className='flex items-center gap-2 text-xl group-hover:text-redHover transition-colors ease-in duration-75150'>
-                <BsFillPersonFill />
-                Portfolio
-            </div>
-            <p className='font-thin'>
-                My Portfolio Website
-            </p>
-        </a>
-        <a href='https://github.com/sandro21-glitch/WorldWise' target='_blank' className="group transition-colors ease-in duration-duration-75 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
-             <div className='flex items-center gap-2 text-xl group-hover:text-redHover transition-colors ease-in duration-duration-75'>
-                <FaReact />
-                WorldWise
-            </div>
-            <p className='font-thin'>WorldWise tracking app made with ReactJS AND TailwindCSS</p>
-        </a>
-        <a href='https://github.com/sandro21-glitch/entertainment-web-app' target='_blank' className="group transition-colors ease-in duration-duration-75 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
-             <div className='flex items-center gap-2 text-xl group-hover:text-redHover transition-colors ease-in duration-duration-75'>
-                <AiOutlineAppstore />
-                Entertainment web app
-            </div>
-            <p className='font-thin'>Entertainment web app</p>
-        </a>
-        <a href='https://github.com/sandro21-glitch/comfy-sloth-store' target='_blank' className="group transition-colors ease-in duration-duration-75 w-full p-5 border-2 border-[rgba(0,0,0,.125)] bg-[#f8f9fa] cursor-pointer">
-             <div className='flex items-center gap-2 text-xl group-hover:text-redHover transition-colors ease-in duration-duration-75'>
-                <SiSecurityscorecard />
-                Comfy Sloth
-            </div>
-            <p className='font-thin'>E-Commerce website</p>
-        </a>
-      </article>
+      <h2 className="text-5xl font-light mb-5">Projects</h2>
+      <Splide
+        options={{
+          arrows: false,
+          pagination: false,
+          autoplay: true,
+          interval: 3000,
+          pauseOnHover: false,
+          resetProgress: true,
+          rewind: true,
+          gap: "15px",
+          perPage: 4,
+          updateOnMove: true,
+          breakpoints: {
+            1024: {
+              perPage: 3,
+            },
+            767: {
+              perPage: 2,
+            },
+            640: {
+              perPage: 1,
+            },
+          },
+        }}
+      >
+        {projects.map((item) => {
+          return (
+            <SplideSlide key={item.id}>
+              <div className="border border-redHover rounded-lg p-5 min-h-[370px] group cursor-pointer">
+                <div className="overflow-hidden ">
+                  <Link to={`${item.link}`}>
+                    <h2 className="text-xl text-redHover mb-4 whitespace-nowrap">{item.name}</h2>
+                    <img
+                      src={item.image}
+                      alt="img"
+                      className="w-full mb-4 group-hover:scale-110 transition-all ease-in duration-300"
+                    />
+                    <p className="mb-0">{item.comment}</p>
+                  </Link>
+                </div>
+              </div>
+            </SplideSlide>
+          );
+        })}
+      </Splide>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
