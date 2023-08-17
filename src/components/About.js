@@ -37,17 +37,17 @@ const About = () => {
           <pre className="text-lg md:text-xl lg:text-4xl">
             <span className="text-highlightRed">let</span> Developer = &#123;
             <br />
-            <span className="text-highlightBlue"> name</span>: 'Sandro',
+            <span className="text-highlightBlue">     name</span>: 'Sandro',
             <br />
-            <span className="text-highlightBlue"> location</span>: 'Georgia',
+            <span className="text-highlightBlue">     location</span>: 'Georgia',
             <br />
-            <span className="text-highlightBlue"> isCoding</span>: true,
+            <span className="text-highlightBlue">     isCoding</span>: true,
             <br />
-            <span className="text-highlightBlue"> drink</span>: ['Coffee',
+            <span className="text-highlightBlue">     drink</span>: ['Coffee',
             <br />
-            <span> 'Tea',</span>
+            <span>           'Tea',</span>
             <br />
-            <span> 'Water']&#125;</span>
+            <span>           'Water']&#125;</span>
           </pre>
         </div>
       </article>
