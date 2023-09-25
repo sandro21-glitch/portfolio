@@ -44,11 +44,13 @@ const Projects = () => {
       >
         {projects.map((item) => {
           return (
-            <SplideSlide key={item.id}>
-              <div className="border border-redHover rounded-lg p-5 min-h-[370px] group cursor-pointer">
+            <SplideSlide key={item.id} className="flex items-stretch">
+              <div className="border border-redHover  rounded-lg p-5 group cursor-pointer">
                 <div className="overflow-hidden ">
                   <Link to={`${item.link}`}>
-                    <h2 className="text-xl text-redHover mb-4 whitespace-nowrap">{item.name}</h2>
+                    <h2 className="text-xl text-redHover mb-4 whitespace-nowrap">
+                      {item.name}
+                    </h2>
                     <img
                       src={item.image}
                       alt="img"
