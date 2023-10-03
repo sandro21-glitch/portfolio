@@ -27,4 +27,11 @@ export const projects = [
     comment: "pizza ordering app using React.js and state management with Redux Toolkit.",
     image: "/images/pizza.png",
   },
+  {
+    id: 5,
+    link: "https://github.com/sandro21-glitch/TechNexIt",
+    name: "TechNexIt",
+    comment: "",
+    image: "/images/technexit.PNG",
+  },
 ];
