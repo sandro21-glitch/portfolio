@@ -31,7 +31,7 @@ export const projects = [
     id: 5,
     link: "https://github.com/sandro21-glitch/TechNexIt",
     name: "TechNexIt",
-    comment: "",
+    comment: "React and Supabase-Powered E-commerce Website",
     image: "/images/technexit.PNG",
   },
 ];
