@@ -24,7 +24,8 @@ export const projects = [
     id: 4,
     link: "https://github.com/sandro21-glitch/react-fast-pizza-",
     name: "React fast pizza",
-    comment: "pizza ordering app using React.js and state management with Redux Toolkit.",
+    comment:
+      "pizza ordering app using React.js and state management with Redux Toolkit.",
     image: "/images/pizza.png",
   },
   {
@@ -33,5 +34,13 @@ export const projects = [
     name: "TechNexIt",
     comment: "React and Supabase-Powered E-commerce Website",
     image: "/images/technexit.PNG",
+  },
+  {
+    id: 6,
+    link: "https://github.com/sandro21-glitch/Fake-Messenger-Chat-Generator",
+    name: "Fake Messenger Chat Generator",
+    comment:
+      "Experience the art of creative storytelling with the Fake Messenger Chat Generator built using React, Context API, and Tailwind CSS. ",
+    image: "/images/fakemsngr.PNG",
   },
 ];
