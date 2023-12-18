@@ -40,7 +40,7 @@ export const projects = [
     link: "https://github.com/sandro21-glitch/Fake-Messenger-Chat-Generator",
     name: "Fake Messenger Chat Generator",
     comment:
-      "Experience the art of creative storytelling with the Fake Messenger Chat Generator built using React, Context API, and Tailwind CSS. ",
+      "Fake Messenger Chat Generator built using React, Context API, and Tailwind CSS.",
     image: "/images/fakemsngr.PNG",
   },
 ];
