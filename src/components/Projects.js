@@ -45,16 +45,16 @@ const Projects = () => {
         {projects.map((item) => {
           return (
             <SplideSlide key={item.id} className="flex items-stretch">
-              <div className="border border-redHover  rounded-lg p-5 group cursor-pointer">
-                <div className="overflow-hidden ">
-                  <Link to={`${item.link}`}>
-                    <h2 className="text-xl text-redHover mb-4 whitespace-nowrap">
+              <div className="w-full border border-redHover rounded-lg p-5 group cursor-pointer">
+                <div className="overflow-hidden w-ful">
+                  <Link to={`${item.link}`} className="w-full">
+                    <h2 className="text-lg text-redHover mb-4 whitespace-nowrap">
                       {item.name}
                     </h2>
                     <img
                       src={item.image}
                       alt="img"
-                      className="w-full mb-4 group-hover:scale-110 transition-all ease-in duration-300"
+                      className="w-full h-[15rem] object-contain mb-4 group-hover:scale-110 transition-all ease-in duration-300"
                     />
                     <p className="mb-0">{item.comment}</p>
                   </Link>
