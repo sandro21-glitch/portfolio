@@ -54,6 +54,7 @@ const Projects = () => {
                     <img
                       src={item.image}
                       alt="img"
+                      loading="lazy"
                       className="w-full h-[15rem] object-contain mb-4 group-hover:scale-110 transition-all ease-in duration-300"
                     />
                     <p className="mb-0">{item.comment}</p>
