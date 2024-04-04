@@ -37,7 +37,7 @@ const Tech = () => {
               <span className="text-highlightBlue">   'Redux Toolkit'</span>,<br />
               <span className="text-highlightBlue">   'React Router'</span>,
               <br />
-              <span className="text-highlightBlue">   'Supabase'</span>,<br />]
+              <span className="text-highlightBlue">   'TypeScript'</span>,<br />]
             </pre>
           </div>
         </div>
