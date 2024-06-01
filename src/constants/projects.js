@@ -1,5 +1,20 @@
 export const projects = [
   {
+    id: 7,
+    link: "https://github.com/sandro21-glitch/vit-vault-ecommerce",
+    name: "VitVault",
+    comment:
+      "E-commerce Platform built with React.js, TypeScript, and Firebase.",
+    image: "/images/vault.png",
+  },
+  {
+    id: 5,
+    link: "https://github.com/sandro21-glitch/TechNexIt",
+    name: "TechNexIt",
+    comment: "React and Supabase-Powered E-commerce Website",
+    image: "/images/technexit.PNG",
+  },
+  {
     id: 1,
     link: "https://github.com/sandro21-glitch/comfy-sloth-store",
     name: "Comfy Sloth",
@@ -28,13 +43,7 @@ export const projects = [
       "pizza ordering app using React.js and state management with Redux Toolkit.",
     image: "/images/pizza.png",
   },
-  {
-    id: 5,
-    link: "https://github.com/sandro21-glitch/TechNexIt",
-    name: "TechNexIt",
-    comment: "React and Supabase-Powered E-commerce Website",
-    image: "/images/technexit.PNG",
-  },
+
   {
     id: 6,
     link: "https://github.com/sandro21-glitch/Fake-Messenger-Chat-Generator",
