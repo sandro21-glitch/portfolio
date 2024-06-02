@@ -4,7 +4,7 @@ export const projects = [
     link: "https://github.com/sandro21-glitch/vit-vault-ecommerce",
     name: "VitVault",
     comment:
-      "E-commerce Platform built with React.js, TypeScript, and Firebase.",
+      "E-commerce Platform built with React.js, TypeScript and Firebase.",
     image: "/images/vault.png",
   },
   {
