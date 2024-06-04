@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import image from "../images/img.png";
+import aboutLogo from "../images/undraw_developer_activity_re_39tg.svg";
 // aos
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,9 +27,9 @@ const About = () => {
         {/* img wrapper */}
         <div className="flex-1 flex items-end justify-center">
           <img
-            src={image}
+            src={aboutLogo}
             alt="coding image"
-            className="h-[30rem] max-w-full"
+            className="h-auto max-w-full"
             loading="lazy"
           />
         </div>
@@ -37,17 +38,17 @@ const About = () => {
           <pre className="text-lg md:text-xl lg:text-4xl">
             <span className="text-highlightRed">let</span> Developer = &#123;
             <br />
-            <span className="text-highlightBlue">     name</span>: 'Sandro',
+            <span className="text-highlightBlue"> name</span>: 'Sandro',
             <br />
-            <span className="text-highlightBlue">     location</span>: 'Georgia',
+            <span className="text-highlightBlue"> location</span>: 'Georgia',
             <br />
-            <span className="text-highlightBlue">     isCoding</span>: true,
+            <span className="text-highlightBlue"> isCoding</span>: true,
             <br />
-            <span className="text-highlightBlue">     drink</span>: ['Coffee',
+            <span className="text-highlightBlue"> drink</span>: ['Coffee',
             <br />
-            <span>           'Tea',</span>
+            <span> 'Tea',</span>
             <br />
-            <span>           'Water']&#125;</span>
+            <span> 'Water']&#125;</span>
           </pre>
         </div>
       </article>
