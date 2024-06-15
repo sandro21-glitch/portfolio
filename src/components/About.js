@@ -46,9 +46,9 @@ const About = () => {
             <br />
             <span className="text-highlightBlue"> drink</span>: ['Coffee',
             <br />
-            <span> 'Tea',</span>
+            <span>         'Tea',</span>
             <br />
-            <span> 'Water']&#125;</span>
+            <span>         'Water']&#125;</span>
           </pre>
         </div>
       </article>

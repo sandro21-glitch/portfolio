@@ -12,10 +12,10 @@ const Navbar = () => {
   return (
     <header
       className={`fixed left-0 top-0 z-[999] overflow-hidden bg-navCl ${
-        isOpen ? "h-52" : "h-14"
+        isOpen ? "h-52" : "h-[4.5rem]"
       } md:h-14  w-full text-center py-3 flex items-start transition-[height] ease-linear duration-300`}
     >
-      <nav className="relative px-3 w-[98vw] max-w-maxWidth mx-auto flex items-center justify-between">
+      <nav className="relative px-3 w-[98vw] max-w-maxWidth mx-auto flex items-center  justify-between">
         <h4 className="cursor-pointer text-lg md:text-xl lg:text-2xl" href="#">
           <code>&lt; sandro /&gt;</code>
         </h4>
