@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import image from "../images/img.png";
 import aboutLogo from "../images/undraw_developer_activity_re_39tg.svg";
 // aos
 import AOS from "aos";
@@ -28,7 +27,7 @@ const About = () => {
         <div className="flex-1 flex items-end justify-center">
           <img
             src={aboutLogo}
-            alt="coding image"
+            alt="coding img"
             className="h-auto max-w-full"
             loading="lazy"
           />
