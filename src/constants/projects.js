@@ -8,6 +8,14 @@ export const projects = [
     image: "/images/vault.png",
   },
   {
+    id: 24,
+    link: "https://github.com/sandro21-glitch/friend-sphere",
+    name: "FriendSphere",
+    comment:
+      "A social platform built with React, TypeScript, Tailwind CSS, and Firebase, focusing on group interactions. Users can join or leave groups, post comments, follow others, and manage personalized profiles.",
+    image: "/images/friend-sphere.png",
+  },
+  {
     id: 5,
     link: "https://github.com/sandro21-glitch/TechNexIt",
     name: "TechNexIt",
